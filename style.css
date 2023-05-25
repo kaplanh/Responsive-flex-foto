@@ -24,6 +24,12 @@ img {
 img:hover {
   opacity: 1;
 }
+@media screen and (max-width: 1400px) {
+  .column {
+    flex: 33%;
+    max-width: 33%;
+  }
+
 @media screen and (max-width: 900px) {
   .column {
     flex: 50%;
